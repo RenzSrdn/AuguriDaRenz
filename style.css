@@ -1,12 +1,12 @@
 body {
-    margin: 100px;
+    margin: 30% auto;
     background-color: #eee;
     font-family: Verdana;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
     margin: 0 auto;
     position: relative;
     perspective: 1400px;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 10% 0% 10% rgba(0, 0, 0, 0.2);
     z-index: 1;
     transition: transform 1s;
     transform-style: preserve-3d;
@@ -28,12 +28,13 @@ body {
 
 .left-card img {
     width: 100%;
+    height: auto;
 }
 .left-card .card-front,
 .left-card .card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     top: 0;
     left: 0;
     backface-visibility: hidden;
@@ -41,7 +42,7 @@ body {
 .left-card .card-back {
     background-color: #efebdc;
     text-align: center;
-    padding: 30px;
+    padding: 30%;
     box-sizing: border-box;
     transform: rotateY(180deg);
 
@@ -56,15 +57,15 @@ body {
 }
 
 .card.open {
-    left: 150px;
+    left: 40%;
 }
 
 .right-card {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     background: #fff;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    box-shadow: 0% 0% 10% rgba(0,0,0,0.2);
     color: #444;
     position: absolute;
     top: 0;
@@ -77,6 +78,7 @@ body {
 
 .right-card img{
     width: 100%;
+    height: auto;
 }
 /*
 .right-card h2 {
