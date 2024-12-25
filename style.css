@@ -43,7 +43,6 @@ body {
 .left-card .card-back {
     background-color: #efebdc;
     height: 100%
-    padding: 30%;
     box-sizing: border-box;
     transform: rotateY(180deg);
 
