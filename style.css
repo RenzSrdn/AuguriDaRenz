@@ -5,8 +5,8 @@ body {
 }
 
 .card {
-    width: 60%;
-    height: 60%;
+    width: 38%;
+    height: 38%;
     margin: 0 auto;
     position: relative;
     perspective: 1400px;
@@ -16,10 +16,9 @@ body {
 
 .left-card {
     position: relative;
-    width: 60%;
-    height: 60%;
-    background: #061836;
-    color: #061836;
+    width: 100%;
+    height: 100%;
+    background-color: #071836;
     cursor: pointer;
     box-shadow: 10% 0% 10% rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -29,21 +28,23 @@ body {
 }
 
 .left-card img {
+    margin-top: 30%;
     width: 100%;
     height: auto;
-    background: #061836;
 }
 .left-card .card-front,
 .left-card .card-back {
     position: absolute;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     backface-visibility: hidden;
 }
 .left-card .card-back {
     background-color: #efebdc;
+    text-align: center;
+    padding: 30%;
     box-sizing: border-box;
     transform: rotateY(180deg);
 
@@ -62,11 +63,12 @@ body {
 }
 
 .right-card {
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
+    background-color: #071836;
     box-sizing: border-box;
     box-shadow: 0% 0% 10% rgba(0,0,0,0.2);
-    color: #061836;
+    color: #444;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,9 +76,9 @@ body {
 }
 
 .right-card img{
+    margin-top: 30%;
     width: 100%;
     height: auto;
-    background: #061836;
 }
 /*
 .right-card h2 {
