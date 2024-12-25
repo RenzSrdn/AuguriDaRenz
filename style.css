@@ -40,17 +40,18 @@ body {
     left: 0;
     backface-visibility: hidden;
 }
+
+.left-card .card-back img {
+    width:100%;
+    height: auto;
+}
+
 .left-card .card-back {
-    background-color: #efebdc;
-    height: 100%
-    box-sizing: border-box;
     transform: rotateY(180deg);
 
 }
 
-.left-card .card-back h2 {
-    color:#f4f4f4;
-}
+
 
 .card.open .left-card {
     transform: rotateY(-180deg);
