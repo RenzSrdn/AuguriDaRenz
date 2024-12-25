@@ -28,7 +28,6 @@ body {
 
 .left-card img {
     width: 100%;
-    height: auto;
 }
 .left-card .card-front,
 .left-card .card-back {
@@ -78,7 +77,6 @@ body {
 
 .right-card img{
     width: 100%;
-    height: auto;
 }
 /*
 .right-card h2 {
