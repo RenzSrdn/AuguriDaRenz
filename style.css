@@ -6,7 +6,7 @@ body {
 
 .card {
     width: 38%;
-    height: 38%;
+    height: 24%;
     margin: 0 auto;
     position: relative;
     perspective: 1400px;
@@ -28,7 +28,6 @@ body {
 }
 
 .left-card img {
-    margin-top: 10%;
     width: 100%;
     height: auto;
 }
@@ -76,7 +75,6 @@ body {
 }
 
 .right-card img{
-    margin-top: 10%;
     width: 100%;
     height: auto;
 }
