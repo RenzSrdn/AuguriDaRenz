@@ -6,7 +6,7 @@ body {
 
 .card {
     width: 60%;
-    height: 50%;
+    height: 60%;
     margin: 0 auto;
     position: relative;
     perspective: 1400px;
@@ -28,12 +28,13 @@ body {
 
 .left-card img {
     width: 100%;
+    height: auto;
 }
 .left-card .card-front,
 .left-card .card-back {
     position: absolute;
     width: 60%;
-    height: 50%;
+    height: 60%;
     top: 0;
     left: 0;
     backface-visibility: hidden;
@@ -61,7 +62,7 @@ body {
 
 .right-card {
     width: 60%;
-    height: 50%;
+    height: 60%;
     background: #fff;
     box-sizing: border-box;
     box-shadow: 0% 0% 10% rgba(0,0,0,0.2);
@@ -77,6 +78,7 @@ body {
 
 .right-card img{
     width: 100%;
+    height: auto;
 }
 /*
 .right-card h2 {
