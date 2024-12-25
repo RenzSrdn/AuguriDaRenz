@@ -19,6 +19,7 @@ body {
     width: 60%;
     height: 60%;
     background: #061836;
+    color: #061836;
     cursor: pointer;
     box-shadow: 10% 0% 10% rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -65,7 +66,7 @@ body {
     background: #061836;
     box-sizing: border-box;
     box-shadow: 0% 0% 10% rgba(0,0,0,0.2);
-    color: #444;
+    color: #061836;
     position: absolute;
     top: 0;
     left: 0;
