@@ -31,6 +31,7 @@ body {
 .left-card img {
     width: 100%;
     height: auto;
+    background: #061836;
 }
 .left-card .card-front,
 .left-card .card-back {
@@ -63,7 +64,6 @@ body {
 .right-card {
     width: 60%;
     height: 60%;
-    background: #061836;
     box-sizing: border-box;
     box-shadow: 0% 0% 10% rgba(0,0,0,0.2);
     color: #061836;
@@ -76,6 +76,7 @@ body {
 .right-card img{
     width: 100%;
     height: auto;
+    background: #061836;
 }
 /*
 .right-card h2 {
